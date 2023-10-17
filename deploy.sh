@@ -14,6 +14,9 @@ else
     echo "Docker is already installed!"
 fi
 
+# Start docker Linux
+sudo systemctl start docker
+
 # Check if docker-compose is installed
 if ! command -v docker-compose &> /dev/null; then
     echo "Docker Compose not found! Installing..."
