@@ -21,7 +21,7 @@ func main() {
 	defer cancel()
 
 	// Todo: Move connection URI to secure config
-	client, err := mongo.Connect(ctx, options.Client().ApplyURI("mongodb+srv://osiam002:SPiK5dww12VD6voR@auditlog.qmlguki.mongodb.net/?retryWrites=true&w=majority"))
+	client, err := mongo.Connect(ctx, options.Client().ApplyURI("mongodb+srv://osiam002:...."))
 	if err != nil {
 		log.Fatalf("Failed to connect to MongoDB: %v", err)
 	}
