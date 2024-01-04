@@ -1,4 +1,4 @@
-# Canonical Audit Log Service 
+# Audit Log Service 
 This is a mock API intended to capture and query audit events. Built with Golang and MongoDB, it leverages JWT for authentication.
 
 ## Overview
